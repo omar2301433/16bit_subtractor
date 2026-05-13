@@ -4,7 +4,7 @@ A Digital Logic Design project that implements a 16-bit binary subtractor capabl
 
 The circuit performs:
 
-id="w9k2am" Output = A - B
+Output = A - B
 
 where:
 - A = 16-bit Minuend
@@ -41,12 +41,12 @@ This project can be implemented using:
 ### Method 1: Ripple Borrow Subtractor
 Using 16 Full Subtractors connected in sequence.
 
-id="m4x7ql" FS0 → FS1 → FS2 → ... → FS15
+FS0 → FS1 → FS2 → ... → FS15
 
 ### Method 2: 2’s Complement Subtraction
 Using a 16-bit adder:
 
-id="g8v5tr" A - B = A + (~B + 1)
+A - B = A + (~B + 1)
 
 Steps:
 1. Invert B using NOT gates
@@ -71,17 +71,16 @@ Steps:
 
 ## Project Structure
 
-bash id="r2n6yf" 16-bit-subtractor/ │ ├── design/ │   ├── circuit_design.png │   ├── truth_table.png │ ├── simulation/ │   └── subtractor_simulation.circ │ └── README.md 
+16-bit-subtractor/ │ ├── design/ │   ├── circuit_design.png │   ├── truth_table.png │ ├── simulation/ │   └── subtractor_simulation.circ │ └── README.md 
 
 ## Example
 
 Input:
-
-id="f6p3dw" A = 0000000000001010 B = 0000000000000011
+A = 0000000000001010 B = 0000000000000011
 
 Output:
 
-id="z1h8mu" Difference = 0000000000000111 Borrow Out = 0
+Difference = 0000000000000111 Borrow Out = 0
 
 ## Applications
 
@@ -92,7 +91,7 @@ id="z1h8mu" Difference = 0000000000000111 Borrow Out = 0
 
 ## Contributors
 
-- Omar Ahmed
+- Omar Ahmed (omar2301433)
 
 ## Course
 
